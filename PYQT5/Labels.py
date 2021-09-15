@@ -8,6 +8,8 @@ class Windows(QWidget):
         self.setGeometry(50,50,350,350)
         self.UI()
 
+
+
     def UI(self):
         text1=QLabel('Hello Python ',self)
         text2=QLabel('Hello world ',self)
