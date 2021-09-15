@@ -8,7 +8,7 @@ class Windows(QWidget):
         self.setWindowTitle("Using Labels")
         self.setGeometry(50,50,350,350)
         self.UI()
-        
+
 
 
 
