@@ -20,6 +20,7 @@ class Windows(QWidget):
         showButton.clicked.connect(self.showImg)
         showButton.move(260,220)
         self.show()
+        
 
     def removeImg(self):
         self.image.close()
