@@ -6,13 +6,14 @@ class Windows(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Using Labels")
-        self.setGeometry(50,50,350,350)
+        self.setGeometry(50,50,500,500)
         self.UI()
 
     def UI(self):
         self.image =QLabel(self)
-        self.image.setPixmap(QPixmap('Images/unnamed.jpg'))
+        self.image.setPixmap(QPixmap('Images/scissors.png'))
         self.image.move(150,50)
+        self.image.mousePressEvent()
         removeButton = QPushButton("Remove",self)
         removeButton.move(150,220)
         removeButton.clicked.connect(self.removeImg)
